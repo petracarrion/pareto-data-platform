@@ -1,3 +1,10 @@
+---
+theme: uncover
+class:
+  - invert
+paginate: true
+---
+
 # Pareto Data Platform
 
 ## What is it?
