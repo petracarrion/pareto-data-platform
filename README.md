@@ -90,8 +90,10 @@ power of the existing data and can also speed up the analysis and design of new 
 With centralized semantic models, dashboards and reports, we will make sure that we have a single source of truth for
 our BI users
 
---
+---
 
 ## The Data Flow
 
-TBD
+<style> img { color-scheme: light; } </style>
+
+![](architecture-overview.drawio.svg)
