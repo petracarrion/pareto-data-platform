@@ -35,7 +35,7 @@ The Pareto Data Platform is composed of:
 
 - Azure Data Factory as ETL Tool
 - Azure Data Lake as Persistent Staging Area
-- Azure Synapse as Data Warehouse
+- Azure Synapse Dedicated SQL Pool as Data Warehouse
 - Microsoft Power BI as BI Tool
 
 ---
@@ -61,3 +61,18 @@ Using such as simple API and plain file-based storage will help us stay vendor-n
 other cloud provider in the future
 
 Storing the data in the Azure Data Lake before moving it to the data warehouse will create an additional backup layer
+
+---
+
+## Azure Synapse Dedicated SQL Pool as Data Warehouse
+
+<style scoped>section{font-size:32px;}</style>
+
+Azure Synapse Dedicated SQL Pool is a fully managed elastic data warehouse that provides a scalable and cost-effective
+solution for storing and analyzing large volumes of data
+
+The reason to use a Dedicated SQL Pool instead of the Serverless alternative is the higher performance and improved cost
+transparency
+
+The Serverless SQL Pool might be a better choice for smaller workloads or sporadic data analysis but we assume
+uninterrupted usage by our BI users during working hours
