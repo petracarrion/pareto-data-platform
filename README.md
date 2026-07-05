@@ -13,7 +13,7 @@ backgroundImage: url('dark-background.jpg')
 
 ## What is it?
 
-The Pareto Data Platform is an architecture blueprint for a data platform that fits 80% of the needs of medium size
+The Pareto Data Platform is an architecture blueprint for a data platform that fits 80% of the needs in a medium-size
 company with just a 20% of complexity
 
 <!-- HTML comment recognizes as a presenter note per pages. -->
