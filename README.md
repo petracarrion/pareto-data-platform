@@ -36,7 +36,7 @@ The Pareto Data Platform is composed of:
 - Azure Data Factory as ETL Tool
 - Azure Data Lake as Persistent Staging Area
 - Azure Synapse Dedicated SQL Pool as Data Warehouse
-- Microsoft Power BI as BI Tool
+- Microsoft Power BI as Business Intelligence Tool
 
 ---
 
@@ -76,3 +76,18 @@ transparency
 
 The Serverless SQL Pool might be a better choice for smaller workloads or sporadic data analysis but we assume
 uninterrupted usage by our BI users during working hours
+
+---
+
+## Microsoft Power BI as Business Intelligence Tool
+
+<style scoped>section{font-size:32px;}</style>
+
+Microsoft Power BI can be used either as Self-Service BI Tool for explorative data analysis or as centralized BI tool to
+share standarized KPIs and reports across the company
+
+Empowering our BI users will improve the return of investment in our data platform by letting users leverage the whole
+power of the existing data and can also speed up the analysis and design of new reports
+
+With centralized semantic models, dashboards and reports, we will make sure that we have a single source of truth for
+our BI users
