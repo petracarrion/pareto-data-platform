@@ -94,6 +94,6 @@ our BI users
 
 ## The Data Flow
 
-<style> img { color-scheme: light; } </style>
+<style> img { color-scheme: light; width: 100%; } </style>
 
 ![](architecture-overview.drawio.svg)
