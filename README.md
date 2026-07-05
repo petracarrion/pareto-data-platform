@@ -7,6 +7,10 @@ class:
 transition: slide
 paginate: true
 backgroundImage: url('dark-background.jpg')
+style: |
+  section {
+    font-size: 32px;
+  }
 ---
 
 # Pareto Data Platform
@@ -52,8 +56,6 @@ applications and databases running on-premises
 
 ## Azure Data Lake as Persistent Staging Area
 
-<style scoped>section{font-size:32px;}</style>
-
 Azure Data Lake extends the capabilities of Azure Blob Storage to support hierarchical role-based access control while
 it remains extremely cost-effective
 
@@ -65,8 +67,6 @@ Storing the data in the Azure Data Lake before moving it to the data warehouse w
 ---
 
 ## Azure Synapse Dedicated SQL Pool as Data Warehouse
-
-<style scoped>section{font-size:32px;}</style>
 
 Azure Synapse Dedicated SQL Pool is a fully managed elastic data warehouse that provides a scalable and cost-effective
 solution for storing and analyzing large volumes of data
@@ -80,8 +80,6 @@ uninterrupted usage by our BI users during working hours
 ---
 
 ## Microsoft Power BI as Business Intelligence Tool
-
-<style scoped>section{font-size:32px;}</style>
 
 Microsoft Power BI can be used either as Self-Service BI Tool for explorative data analysis or as centralized BI tool to
 share standarized KPIs and reports across the company
