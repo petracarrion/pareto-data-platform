@@ -2,6 +2,7 @@
 theme: uncover
 class:
   - invert
+transition: slide
 paginate: true
 ---
 
