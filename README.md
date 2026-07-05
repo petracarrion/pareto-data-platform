@@ -6,6 +6,7 @@ class:
   - invert
 transition: slide
 paginate: true
+backgroundImage: url('dark-background.jpg')
 ---
 
 # Pareto Data Platform
