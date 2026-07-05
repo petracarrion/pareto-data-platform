@@ -43,7 +43,21 @@ The Pareto Data Platform is composed of:
 ## Azure Data Factory as ETL Tool
 
 Azure Data Factory is a cloud-based data integration service that enables you to automate data movement and
-transformation.
+transformation
 
 Combined with Microsoft Integration Runtime, we will have an enterprise-grade ETL tool capable of extracting data from
-applications and databases running on-premise.
+applications and databases running on-premises
+
+---
+
+## Azure Data Lake as Persistent Staging Area
+
+<style scoped>section{font-size:32px;}</style>
+
+Azure Data Lake extends the capabilities of Azure Blob Storage to support hierarchical role-based access control while
+it remains extremely cost-effective
+
+Using such as simple API and plain file-based storage will help us stay vendor-neutral and be able to migrate to any
+other cloud provider in the future
+
+Storing the data in the Azure Data Lake before moving it to the data warehouse will create an additional backup layer
